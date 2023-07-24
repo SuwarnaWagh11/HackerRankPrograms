@@ -15,7 +15,7 @@ public class StudyStreams1 {
         Employee[] arrOfEmp = {
                 new Employee(1, "Suwarna Wagh", 20000),
                 new Employee(2, "Randhir Giri", 30000),
-                new Employee(3, "Tom cruiz wa", 20000),
+                new Employee(3, "Suwarna Wagh", 20000),
                 new Employee(4, "Vin Diesel w", 20000)
         };
         //create stream of the Employee class -> Stream<Employee>
@@ -24,6 +24,11 @@ public class StudyStreams1 {
         List<Employee> list = Arrays.asList(arrOfEmp);
         Stream<Employee> lst1 = list.stream();
         //can we build the stream? how?
+
+        List<Employee> result11 = list.stream().collect(Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(Employee::getName))))
+                .stream().collect(Collectors.toList());
+
+        System.out.println(result11);
         Stream.Builder<Employee> buildr = Stream.builder();
         buildr.accept(arrOfEmp[0]);
         buildr.accept(arrOfEmp[1]);
@@ -66,6 +71,7 @@ public class StudyStreams1 {
         List<Integer> num = Arrays.asList(1,2,3,4,5);
         num.stream().map(n -> n *2).forEach(System.out::print);
         System.out.println();
+
         //list.stream().map(name -> name.getName()).forEach(System.out::println);
         list.stream().map(Employee::getSalary).forEach(System.out::println);
 

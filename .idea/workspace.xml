@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Addec Lambda &amp; Stream practice test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/HelloWorldGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/Unit1Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindMaxOccurringCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindTheNumberOfAlphabeticsTokenInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/PatternSyntaxChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/PatternToValidateIPAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/RemoveCharFromFirstStringPresentInSecondString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/RemoveDuplicateFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/RemoveTheDuplicateEmployeeFromList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/Program1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +40,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Project/HackerrankProject/HackerRankPrograms/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/HackerrankProject/HackerRankPrograms/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.RemoveCharFromFirstStringPresentInSecondString">
+    <configuration name="FindMaxOccurringCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsProgram.FindMaxOccurringCharacter" />
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveCharFromFirstStringPresentInSecondString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsProgram.RemoveCharFromFirstStringPresentInSecondString" />
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsProgram.RemoveDuplicateFromString" />
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveTheDuplicateEmployeeFromList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamstest.RemoveTheDuplicateEmployeeFromList" />
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudyStreams1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamstest.StudyStreams1" />
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streamstest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RemoveCharFromFirstStringPresentInSecondString" />
+        <item itemvalue="Application.RemoveTheDuplicateEmployeeFromList" />
+        <item itemvalue="Application.StudyStreams1" />
+        <item itemvalue="Application.RemoveDuplicateFromString" />
+        <item itemvalue="Application.FindMaxOccurringCharacter" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689247861116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Addec Lambda &amp; Stream practice test">
+      <created>1689248288364</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689248288364</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
