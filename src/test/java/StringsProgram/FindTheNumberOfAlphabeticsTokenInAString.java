@@ -19,7 +19,7 @@ he
 Note: You may find the String.split method helpful in completing this challenge.*/
 public class FindTheNumberOfAlphabeticsTokenInAString {
     public static void main(String[] args) {
-        String s = "                                    ";
+        String s = "    He is a very very good boy, isn't he    ";
         if(!s.isBlank()){
             s = s.trim();
             String[] tokens = s.split("[.,'?_! @]+");
