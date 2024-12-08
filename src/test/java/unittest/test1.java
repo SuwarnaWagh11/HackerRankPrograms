@@ -20,6 +20,7 @@ public class test1 {
     public void setUp(){
         MockitoAnnotations.openMocks(this);
         Book book = new Book();
+        Page page = new Page();
     }
 
     @Test

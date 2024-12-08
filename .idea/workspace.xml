@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added more programs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923_MinAndMaxInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory/FactoryLogistic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory/RoadLogisticFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory/SeaLogisticFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/TestButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/WebDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowDialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/Items.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/ReadJSONExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/WriteJSONExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/readingExcelFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923_MinAndMaxInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unittest/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unittest/test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +59,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="somethingnew" />
+      <recent name="patterns.factory1" />
+      <recent name="patterns.factory" />
       <recent name="jsonutil" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task210923_MinAndMaxInt">
+  <component name="RunManager" selected="TestNG.NewTest101.testWithDiffBookingTypeAndDiffDistance">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -94,38 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1_23Aug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.Day1_23Aug" />
-      <module name="HackerRankPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="geeksforgeeks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadJSONExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonutil.ReadJSONExample" />
-      <module name="HackerRankPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jsonutil.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task210923" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprogram.Task210923" />
+    <configuration name="NewTest101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprogram.*" />
+          <option name="PATTERN" value="somethingnew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,39 +112,85 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task210923_MinAndMaxInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprogram.Task210923_MinAndMaxInt" />
+    <configuration name="NewTest101.testWithDiffBookingTypeAndDiffDistance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprogram.*" />
+          <option name="PATTERN" value="somethingnew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="somethingnew" />
+      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
+      <option name="METHOD_NAME" value="testWithDiffBookingTypeAndDiffDistance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteJSONExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonutil.WriteJSONExample" />
-      <module name="HackerRankPrograms" />
+    <configuration name="NewTest101.testWithDiffBookingTypeOnly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jsonutil.*" />
+          <option name="PATTERN" value="somethingnew.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="somethingnew" />
+      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
+      <option name="METHOD_NAME" value="testWithDiffBookingTypeOnly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTest101.testWithSameBookingTypeOnly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="somethingnew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="somethingnew" />
+      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
+      <option name="METHOD_NAME" value="testWithSameBookingTypeOnly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewTest101.testWithSameDistanceOnly" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="somethingnew.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="somethingnew" />
+      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
+      <option name="METHOD_NAME" value="testWithSameDistanceOnly" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task210923_MinAndMaxInt" />
-        <item itemvalue="Application.Task210923" />
-        <item itemvalue="Application.Day1_23Aug" />
-        <item itemvalue="Application.ReadJSONExample" />
-        <item itemvalue="Application.WriteJSONExample" />
+        <item itemvalue="TestNG.NewTest101.testWithDiffBookingTypeAndDiffDistance" />
+        <item itemvalue="TestNG.NewTest101.testWithSameDistanceOnly" />
+        <item itemvalue="TestNG.NewTest101.testWithSameBookingTypeOnly" />
+        <item itemvalue="TestNG.NewTest101.testWithDiffBookingTypeOnly" />
+        <item itemvalue="Application.NewTest101" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692790197510</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more programs">
+      <option name="closed" value="true" />
+      <created>1695281027471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695281027471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,8 +288,49 @@
           <line>44</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/patterns/factory/Truck.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/patterns/factory/Ship.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/patterns/factory/FactoryLogistic.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="truck" />
+        <watch expression="compareDistance(o1.getDistance(), o2.getDistance())" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HackerRankPrograms$Check2ArrHasSameEle.ic" NAME="Check2ArrHasSameEle Coverage Results" MODIFIED="1691317691095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
