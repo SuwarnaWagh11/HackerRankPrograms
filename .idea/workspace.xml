@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added more programs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearchReverseOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/UnknownOrderBinarySearch.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Binary Search &amp; LinearSearch">
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/FirstOccurranceOfElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/LastOccurranceOfElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinearSearch">
+  <component name="RunManager" selected="Application.LastOccurranceOfElement">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -92,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearch" />
+    <configuration name="BinarySearchReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchReverseOrder" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +103,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearchReverseOrder" />
+    <configuration name="FirstOccurranceOfElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.FirstOccurranceOfElement" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastOccurranceOfElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.LastOccurranceOfElement" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -144,31 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTest101.testWithDiffBookingTypeAndDiffDistance" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="somethingnew.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="somethingnew" />
-      <option name="MAIN_CLASS_NAME" value="somethingnew.NewTest101" />
-      <option name="METHOD_NAME" value="testWithDiffBookingTypeAndDiffDistance" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastOccurranceOfElement" />
+        <item itemvalue="Application.FirstOccurranceOfElement" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.UnknownOrderBinarySearch" />
         <item itemvalue="Application.BinarySearchReverseOrder" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="TestNG.NewTest101.testWithDiffBookingTypeAndDiffDistance" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733679190404</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Binary Search &amp; LinearSearch">
+      <option name="closed" value="true" />
+      <created>1733911550532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733911550533</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +245,8 @@
     <MESSAGE value="Addec Lambda &amp; Stream practice test" />
     <MESSAGE value="Added solved programs" />
     <MESSAGE value="Added more programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more programs" />
+    <MESSAGE value="Added Binary Search &amp; LinearSearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Search &amp; LinearSearch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
