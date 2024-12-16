@@ -31,7 +31,6 @@ public class BinarySearch {
         while(start <= end){
             int mid = (start + end)/2;
             if(arr[mid] == numberToFind){
-
                 return mid;
             } else if (arr[mid] > numberToFind) {
                 end = mid - 1;
