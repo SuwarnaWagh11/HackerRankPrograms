@@ -1,7 +1,13 @@
 package algorithms.sorting;
 
 import java.util.Arrays;
-
+/* We are finding the correct position for the element amd inserting them
+* take current element (at 1st position)and we will compare it with 0th position element
+* how: use for loop to iterate each element starting from 1 till length
+* store it in variable - current
+* we need to start checking/comparing from 0th element for which we will use j variable by initializing j = i - 1
+* and use while loop where j i>= 0 and a[j] > current if yes move it a[j+1] and j--
+* store current in a[j+1]*/
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {8,2,4,1,3};

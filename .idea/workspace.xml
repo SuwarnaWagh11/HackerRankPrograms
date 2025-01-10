@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Binary Search related more problems">
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSort.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Bubble Sort algorithm solution">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.CountOfElementInSortedArray" />
+    <configuration name="A001_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Easy.A001_TwoSum" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="PATTERN" value="LeetCode.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstOccurranceOfElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.FirstOccurranceOfElement" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSort" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.searching.CountOfElementInSortedArray" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastOccurranceOfElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.LastOccurranceOfElement" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.sorting.SelectionSort" />
       <module name="HackerRank" />
@@ -158,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.A001_TwoSum" />
         <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.CountOfElementInSortedArray" />
-        <item itemvalue="Application.LastOccurranceOfElement" />
-        <item itemvalue="Application.FirstOccurranceOfElement" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733944735910</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Insertion Sort &amp; Selection Sort algorithm solution">
+      <option name="closed" value="true" />
+      <created>1734384063582</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734384063582</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added Bubble Sort algorithm solution">
+      <option name="closed" value="true" />
+      <created>1734468621341</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734468621341</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +281,9 @@
     <MESSAGE value="Added more programs" />
     <MESSAGE value="Added Binary Search &amp; LinearSearch" />
     <MESSAGE value="Added Binary Search related more problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Search related more problems" />
+    <MESSAGE value="Added Insertion Sort &amp; Selection Sort algorithm solution" />
+    <MESSAGE value="Added Bubble Sort algorithm solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Bubble Sort algorithm solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -325,9 +344,9 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSort.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
