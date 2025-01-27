@@ -5,8 +5,6 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.Method;
 import io.restassured.response.ValidatableResponse;
-import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 
 import static org.hamcrest.Matchers.*;
 
@@ -18,9 +16,12 @@ public class PracticeAPITest {
         reqSpec.setAccept("").setContentType("").addQueryParam("", "").setBody("");//.setAuth(sometoken)
         ResponseSpecBuilder respDpec = new ResponseSpecBuilder();
         resp = RestAssured
-                .given().spec(reqSpec.build()).expect().spec(respDpec.build())
-                .when()
-                .request(Method.GET, "\\dashboard\\id")
+                .given().
+                    spec(reqSpec.build())
+                .expect().
+                    spec(respDpec.build())
+                .when().
+                    request(Method.GET, "\\dashboard\\id")
                 .then();
 
         resp.statusCode(201);

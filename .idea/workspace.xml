@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Bubble Sort algorithm solution">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated description in Sorting algorithm solution">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/Sales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/searching/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/FactoryLogistic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/RoadLogisticFact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/SeaLogisticFact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/Dialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/TestButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WebDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/test2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +61,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jsonutil" />
       <recent name="somethingnew" />
       <recent name="patterns.factory1" />
       <recent name="patterns.factory" />
-      <recent name="jsonutil" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.ParseJsonTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountOfElementInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.CountOfElementInSortedArray" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.InsertionSort" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="PATTERN" value="algorithms.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.InsertionSort" />
+    <configuration name="ParseJsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jsonutil.ParseJsonTest" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="jsonutil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParseJsonTest" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.A001_TwoSum" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.CountOfElementInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734468621341</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updated description in Sorting algorithm solution">
+      <option name="closed" value="true" />
+      <created>1736529119572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736529119572</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,7 +300,8 @@
     <MESSAGE value="Added Binary Search related more problems" />
     <MESSAGE value="Added Insertion Sort &amp; Selection Sort algorithm solution" />
     <MESSAGE value="Added Bubble Sort algorithm solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Bubble Sort algorithm solution" />
+    <MESSAGE value="Updated description in Sorting algorithm solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated description in Sorting algorithm solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
