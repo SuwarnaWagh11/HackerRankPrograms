@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated description in Sorting algorithm solution">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/Sales.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added some design pattern solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28Jan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestIntProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/FactoryLogistic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/RoadLogisticFact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory/SeaLogisticFact.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/Button.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/Dialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/TestButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WebDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowButton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/patterns/factory1/WindowDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/walg/model/A.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/MyProjects/SpecSavers/vue-colleague_customer&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/MyProjects/runnerz&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;
@@ -70,7 +64,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParseJsonTest">
+  <component name="RunManager" selected="JUnit.PracticeTest.reverseTheString">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -101,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A001_TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Easy.A001_TwoSum" />
+    <configuration name="FindTheNumberOfAlphabeticsTokenInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsProgram.FindTheNumberOfAlphabeticsTokenInAString" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Easy.*" />
+          <option name="PATTERN" value="StringsProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,65 +108,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.BubbleSort" />
+    <configuration name="PracticeTest.findNumberOfAlphabeticsInTheWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="_16_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_16_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
+      <option name="METHOD_NAME" value="findNumberOfAlphabeticsInTheWorld" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.InsertionSort" />
+    <configuration name="PracticeTest.removeCharacterFrom1stringPresentInSecondString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="_16_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_16_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
+      <option name="METHOD_NAME" value="removeCharacterFrom1stringPresentInSecondString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParseJsonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jsonutil.ParseJsonTest" />
+    <configuration name="PracticeTest.removeDuplicateFromString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jsonutil.*" />
+          <option name="PATTERN" value="_16_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_16_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
+      <option name="METHOD_NAME" value="removeDuplicateFromString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.sorting.SelectionSort" />
+    <configuration name="PracticeTest.reverseTheString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.sorting.*" />
+          <option name="PATTERN" value="_16_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="_16_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
+      <option name="METHOD_NAME" value="reverseTheString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParseJsonTest" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.A001_TwoSum" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="JUnit.PracticeTest.reverseTheString" />
+        <item itemvalue="JUnit.PracticeTest.removeDuplicateFromString" />
+        <item itemvalue="JUnit.PracticeTest.removeCharacterFrom1stringPresentInSecondString" />
+        <item itemvalue="Application.FindTheNumberOfAlphabeticsTokenInAString" />
+        <item itemvalue="JUnit.PracticeTest.findNumberOfAlphabeticsInTheWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736529119572</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added some design pattern solutions">
+      <option name="closed" value="true" />
+      <created>1737980087720</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737980087720</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +315,8 @@
     <MESSAGE value="Added Insertion Sort &amp; Selection Sort algorithm solution" />
     <MESSAGE value="Added Bubble Sort algorithm solution" />
     <MESSAGE value="Updated description in Sorting algorithm solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated description in Sorting algorithm solution" />
+    <MESSAGE value="Added some design pattern solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some design pattern solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -310,11 +325,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/StringsProgram/ReverseString.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/StringsProgram/FindPermutationOfString.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEle.java</url>
@@ -355,11 +365,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
           <line>60</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java</url>
