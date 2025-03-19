@@ -49,7 +49,7 @@ public class PracticeTest {
     }
 
     @Test
-    public void findNumberOfAlphabeticsInTheWorld(){
+    public void findNumberOfAlphabeticsInTheWord(){
         String s = "    He, is a very very good boy, isn't he!    ";
         String[] res = s.trim().split("[.,'! @]+");
         int len = res.length;
@@ -62,7 +62,8 @@ public class PracticeTest {
         String input = "suwarnawagh";
         List<String> list = Arrays.asList(input.split(""));
         System.out.println(list);
-        Map.Entry<String, Long> result = list.stream().collect(Collectors.groupingBy(String::valueOf, Collectors.counting()))
+        Map.Entry<String, Long> result = list.stream()
+                .collect(Collectors.groupingBy(String::valueOf, Collectors.counting()))
                 .entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue())

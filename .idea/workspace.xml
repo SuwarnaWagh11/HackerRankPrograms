@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added some design pattern solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28Jan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestIntProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/walg/model/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PracticeTest.reverseTheString">
+  <component name="RunManager" selected="JUnit.ManualTest.calculateTheStringLengthWithoutUsingLengthFunction">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -95,78 +90,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheNumberOfAlphabeticsTokenInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsProgram.FindTheNumberOfAlphabeticsTokenInAString" />
+    <configuration name="ManualTest.calculateTheStringLengthWithoutUsingLengthFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringsProgram.*" />
+          <option name="PATTERN" value="_19_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeTest.findNumberOfAlphabeticsInTheWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_16_March_2025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_16_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
-      <option name="METHOD_NAME" value="findNumberOfAlphabeticsInTheWorld" />
+      <option name="PACKAGE_NAME" value="_19_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
+      <option name="METHOD_NAME" value="calculateTheStringLengthWithoutUsingLengthFunction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.removeCharacterFrom1stringPresentInSecondString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManualTest.convertUpperCaseToLowercase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_16_March_2025.*" />
+          <option name="PATTERN" value="_19_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_16_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
-      <option name="METHOD_NAME" value="removeCharacterFrom1stringPresentInSecondString" />
+      <option name="PACKAGE_NAME" value="_19_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
+      <option name="METHOD_NAME" value="convertUpperCaseToLowercase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.removeDuplicateFromString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManualTest.convertUpperCaseToLowercaseOrViceVersa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_16_March_2025.*" />
+          <option name="PATTERN" value="_19_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_16_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
-      <option name="METHOD_NAME" value="removeDuplicateFromString" />
+      <option name="PACKAGE_NAME" value="_19_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
+      <option name="METHOD_NAME" value="convertUpperCaseToLowercaseOrViceVersa" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeTest.reverseTheString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ManualTest.palindromeVerification" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_16_March_2025.*" />
+          <option name="PATTERN" value="_19_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_16_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_16_March_2025.PracticeTest" />
-      <option name="METHOD_NAME" value="reverseTheString" />
+      <option name="PACKAGE_NAME" value="_19_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
+      <option name="METHOD_NAME" value="palindromeVerification" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManualTest.vowelCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="_19_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
+      <option name="METHOD_NAME" value="vowelCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PracticeTest.reverseTheString" />
-        <item itemvalue="JUnit.PracticeTest.removeDuplicateFromString" />
-        <item itemvalue="JUnit.PracticeTest.removeCharacterFrom1stringPresentInSecondString" />
-        <item itemvalue="Application.FindTheNumberOfAlphabeticsTokenInAString" />
-        <item itemvalue="JUnit.PracticeTest.findNumberOfAlphabeticsInTheWorld" />
+        <item itemvalue="JUnit.ManualTest.calculateTheStringLengthWithoutUsingLengthFunction" />
+        <item itemvalue="JUnit.ManualTest.convertUpperCaseToLowercaseOrViceVersa" />
+        <item itemvalue="JUnit.ManualTest.convertUpperCaseToLowercase" />
+        <item itemvalue="JUnit.ManualTest.vowelCount" />
+        <item itemvalue="JUnit.ManualTest.palindromeVerification" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737980087720</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added some design pattern solutions">
+      <option name="closed" value="true" />
+      <created>1742145416681</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1742145416681</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,6 +376,21 @@
           <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java</url>
           <line>18</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
