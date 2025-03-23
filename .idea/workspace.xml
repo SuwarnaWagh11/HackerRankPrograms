@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated POM. Added some New Tests for java programs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/StepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated POM for allure report">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindMaxOccurringCharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindMaxOccurringCharacterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindPermutationOfStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindPermutationOfStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindTheNumberOfAlphabeticsTokenInAStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindTheNumberOfAlphabeticsTokenInAStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/GuessTheOpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/GuessTheOpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/ReverseStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/ReverseStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28JanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28JanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PractiveUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PractiveUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/somethingnew/LocationCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/somethingnew/LocationCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/RemoveTheDuplicateEmployeeFromListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/RemoveTheDuplicateEmployeeFromListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StreamIntProgramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamIntProgramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgramTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unittest/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unittest/test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742753552323</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated POM for allure report">
+      <option name="closed" value="true" />
+      <created>1742759767528</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1742759767528</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +368,8 @@
     <MESSAGE value="Added some design pattern solutions" />
     <MESSAGE value="Added some New Tests for java programs" />
     <MESSAGE value="Updated POM. Added some New Tests for java programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated POM. Added some New Tests for java programs" />
+    <MESSAGE value="Updated POM for allure report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated POM for allure report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
