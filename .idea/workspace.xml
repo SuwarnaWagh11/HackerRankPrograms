@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added some New Tests for java programs">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_20_March_2025/StreamsPracticeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_19_March_2025/ManualTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ManualTest.checkIfTwoStringsAreRotationsOfEachOther">
+  <component name="RunManager" selected="JUnit.StreamsPracticeTest.findSumOfSquareOfOddNumber">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -89,81 +92,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualTest.checkIfStringCOntainOnlyDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsPracticeTest.findSumOfSquareOfOddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="PATTERN" value="_20_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_19_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
-      <option name="METHOD_NAME" value="checkIfStringCOntainOnlyDigit" />
+      <option name="PACKAGE_NAME" value="_20_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
+      <option name="METHOD_NAME" value="findSumOfSquareOfOddNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualTest.checkIfStringContainOnlyDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsPracticeTest.findTheLongestWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="PATTERN" value="_20_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_19_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
-      <option name="METHOD_NAME" value="checkIfStringContainOnlyDigit" />
+      <option name="PACKAGE_NAME" value="_20_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
+      <option name="METHOD_NAME" value="findTheLongestWord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualTest.checkIfStringIsValidEmailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsPracticeTest.findTheSecondLowestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="PATTERN" value="_20_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_19_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
-      <option name="METHOD_NAME" value="checkIfStringIsValidEmailAddress" />
+      <option name="PACKAGE_NAME" value="_20_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
+      <option name="METHOD_NAME" value="findTheSecondLowestNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualTest.checkIfTwoStringsAreRotationsOfEachOther" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsPracticeTest.groupWordsByTheirFirstCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="PATTERN" value="_20_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_19_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
-      <option name="METHOD_NAME" value="checkIfTwoStringsAreRotationsOfEachOther" />
+      <option name="PACKAGE_NAME" value="_20_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
+      <option name="METHOD_NAME" value="groupWordsByTheirFirstCharacter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualTest.reverseEachWordInString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamsPracticeTest.groupWordsByTheirFirstCharacterUsingStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_19_March_2025.*" />
+          <option name="PATTERN" value="_20_March_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_19_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_19_March_2025.ManualTest" />
-      <option name="METHOD_NAME" value="reverseEachWordInString" />
+      <option name="PACKAGE_NAME" value="_20_March_2025" />
+      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
+      <option name="METHOD_NAME" value="groupWordsByTheirFirstCharacterUsingStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManualTest.checkIfTwoStringsAreRotationsOfEachOther" />
-        <item itemvalue="JUnit.ManualTest.checkIfStringIsValidEmailAddress" />
-        <item itemvalue="JUnit.ManualTest.checkIfStringContainOnlyDigit" />
-        <item itemvalue="JUnit.ManualTest.checkIfStringCOntainOnlyDigit" />
-        <item itemvalue="JUnit.ManualTest.reverseEachWordInString" />
+        <item itemvalue="JUnit.StreamsPracticeTest.findSumOfSquareOfOddNumber" />
+        <item itemvalue="JUnit.StreamsPracticeTest.findTheLongestWord" />
+        <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacterUsingStream" />
+        <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacter" />
+        <item itemvalue="JUnit.StreamsPracticeTest.findTheSecondLowestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742410550897</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added some New Tests for java programs">
+      <option name="closed" value="true" />
+      <created>1742552282306</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742552282306</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
