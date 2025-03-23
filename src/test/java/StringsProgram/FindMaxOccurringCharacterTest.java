@@ -1,11 +1,14 @@
 package StringsProgram;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class FindMaxOccurringCharacter {
+public class FindMaxOccurringCharacterTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void test11() {
         String str = "suwarnawagh";//o/p -> a = 3
         List<String> list = Arrays.asList(str.split(""));
         /*Map.Entry<String, Long> result = list.stream().collect(Collectors.groupingBy(String::valueOf, Collectors.counting()))

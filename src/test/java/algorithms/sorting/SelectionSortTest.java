@@ -1,11 +1,14 @@
 package algorithms.sorting;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 
-public class SelectionSort {
-    public static void main(String[] args) {
+public class SelectionSortTest {
+    @Test
+    public void test11() {
         int[] arr = {5,2,1,4,0,6,3};
-        SelectionSort sort1= new SelectionSort();
+        SelectionSortTest sort1= new SelectionSortTest();
         sort1.selection(arr);
         System.out.println(Arrays.toString(arr));
     }

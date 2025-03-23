@@ -4,14 +4,16 @@ package arrayprogram;
  */
 
 import org.bouncycastle.mime.CanonicalOutputStream;
+import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-public class Task210923 {
-    public static void main(String[] args) {
+public class Task210923Test {
+    @Test
+    public void test11() {
         //solution1 :: time complexity- O(n log(n))
         int[] a ={1,423,6,46,34,23,13,53,4};
         findMinAndMaxInt(a);

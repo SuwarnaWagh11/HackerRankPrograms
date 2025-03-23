@@ -1,11 +1,13 @@
 package streamstest;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class RemoveTheDuplicateEmployeeFromList {
+public class RemoveTheDuplicateEmployeeFromListTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void test11() {
         Employee[] arrOfEmp = {
                 new Employee(1, "Suwarna Wagh", 40000),
                 new Employee(2, "Randhir Giri", 30000),

@@ -1,5 +1,7 @@
 package LeetCode.Easy;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.HashMap;
 /* Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -14,8 +16,9 @@ Initialize Hashmap -> iterate through the array -> find out the difference = tar
 if no -> put the current value & its index in map. map.put(nums[i], i)
 if yes -> return the new int[] with already found diff values index and current index i.e. map.get(diff), i
 */
-public class A001_TwoSum {
-    public static void main(String[] args) {
+public class A001_TwoSum_Test {
+    @Test
+    public void test11() {
         int[] nums = {2,7,11,15};
         System.out.println(Arrays.toString(nums));
         int target = 9;

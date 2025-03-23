@@ -26,7 +26,8 @@ import java.util.List;
 import java.util.Set;
 
 public class PractiveUITest {
-    public static void main(String[] args) throws IOException {
+    //@org.junit.jupiter.api.Test
+    public void test11() throws IOException {
         Capabilities k = new DesiredCapabilities();
         RemoteWebDriver rb = new RemoteWebDriver(k);
         WebDriver driver = new ChromeDriver();

@@ -1,9 +1,11 @@
 package StringsProgram;
 
-import java.util.Locale;
 
-public class ReverseString {
-    public static void main(String[] args) {
+import org.junit.jupiter.api.Test;
+
+public class ReverseStringTest {
+    @Test
+    public void test11() {
         String str1 = "abba";
         String str2 = new String("suwarna");
         String str3 = "suwarnaanrawus";

@@ -4,12 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added some New Tests for java programs">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_20_March_2025/StreamsPracticeTest.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated POM. Added some New Tests for java programs">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/somethingnew/BookingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/somethingnew/ClassLocationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/somethingnew/LocationCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/somethingnew/NewTest101Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_19_March_2025/ManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_19_March_2025/ManualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindMaxOccurringCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindMaxOccurringCharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindPermutationOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindPermutationOfStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/FindTheNumberOfAlphabeticsTokenInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/FindTheNumberOfAlphabeticsTokenInAStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/GuessTheOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/GuessTheOpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringsProgram/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringsProgram/ReverseStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/InsertionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithms/sorting/SelectionSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28Jan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/ArraysTest28JanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayprogram/Task210923Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PractiveUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/PractiveUITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/CheckIfListOContainsPrimeNumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/February20_2025Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/RemoveTheDuplicateEmployeeFromList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/RemoveTheDuplicateEmployeeFromListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestIntProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamIntProgramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StreamTestStrProgramTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streamstest/StudyStreams1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +86,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamsPracticeTest.findSumOfSquareOfOddNumber">
+  <component name="RunManager" selected="JUnit.Day1_23Aug_Test.test11">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -88,6 +113,22 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1_23Aug_Test.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="geeksforgeeks" />
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.Day1_23Aug_Test" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,22 +160,6 @@
       <option name="PACKAGE_NAME" value="_20_March_2025" />
       <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
       <option name="METHOD_NAME" value="findTheLongestWord" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamsPracticeTest.findTheSecondLowestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_20_March_2025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="_20_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
-      <option name="METHOD_NAME" value="findTheSecondLowestNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Day1_23Aug_Test.test11" />
         <item itemvalue="JUnit.StreamsPracticeTest.findSumOfSquareOfOddNumber" />
         <item itemvalue="JUnit.StreamsPracticeTest.findTheLongestWord" />
         <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacterUsingStream" />
         <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacter" />
-        <item itemvalue="JUnit.StreamsPracticeTest.findTheSecondLowestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742552282306</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated POM. Added some New Tests for java programs">
+      <option name="closed" value="true" />
+      <created>1742752669690</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1742752669690</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,23 +374,24 @@
     <MESSAGE value="Updated description in Sorting algorithm solution" />
     <MESSAGE value="Added some design pattern solutions" />
     <MESSAGE value="Added some New Tests for java programs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some New Tests for java programs" />
+    <MESSAGE value="Updated POM. Added some New Tests for java programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated POM. Added some New Tests for java programs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/StringsProgram/ReverseString.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/StringsProgram/ReverseStringTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEle.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEleTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEle.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/arrayprogram/Check2ArrHasSameEleTest.java</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -377,23 +411,23 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101Test.java</url>
           <line>39</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101Test.java</url>
           <line>50</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/somethingnew/NewTest101Test.java</url>
           <line>60</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSort.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java</url>
+          <line>21</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>

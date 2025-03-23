@@ -1,12 +1,15 @@
 package practice;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class PracticeTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void test11() {
         String str = "ssaddaswwsadfggfgtyythjjhyioolkkokkhggtfd";
         //characterCount(str);
         HashMap<Character, Integer> map = new HashMap<>();

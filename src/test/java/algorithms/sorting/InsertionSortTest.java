@@ -1,5 +1,7 @@
 package algorithms.sorting;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 /* We are finding the correct position for the element amd inserting them
 * take current element (at 1st position)and we will compare it with 0th position element
@@ -8,10 +10,11 @@ import java.util.Arrays;
 * we need to start checking/comparing from 0th element for which we will use j variable by initializing j = i - 1
 * and use while loop where j i>= 0 and a[j] > current if yes move it a[j+1] and j--
 * store current in a[j+1]*/
-public class InsertionSort {
-    public static void main(String[] args) {
+public class InsertionSortTest {
+    @Test
+    public void test11() {
         int[] arr = {8,2,4,1,3};
-        InsertionSort sort1 = new InsertionSort();
+        InsertionSortTest sort1 = new InsertionSortTest();
         sort1.insertionSort(arr);
         System.out.println(Arrays.toString(arr));
     }

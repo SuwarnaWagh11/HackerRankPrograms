@@ -1,10 +1,13 @@
 package StringsProgram;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.List;
 
-public class GuessTheOp {
-    public static void main(String[] args) {
+public class GuessTheOpTest {
+    @Test
+    public void test11() {
 /*        int count = 0;
         String s1 = "I am I think an am very smart";
         String[] arr = s1.split(" ");

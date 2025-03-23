@@ -1,13 +1,16 @@
 package streamstest;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class StreamTestStrProgram {
-    public static void main(String[] args) {
+public class StreamTestStrProgramTest {
+    @Test
+    public void test11() {
         List<List<String>> listOfLists = Arrays.asList(
                 Arrays.asList("Reflection", "Collection", "Stream"),
                 Arrays.asList("Structure", "State", "Flow"),

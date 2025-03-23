@@ -1,14 +1,17 @@
 package algorithms.sorting;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 /*Compare first 2 elements and if 1st is greater than 2nd then swap.
 * First for loop which will iterate through each element till the last element
 * Second for loop will start from 0 till length-i-1 so that it will swap and the sorted element will save at last place
 * when the loop will iterate it should not check the recently sorted element which places in the last/second/third last position using length-i-1*/
-public class BubbleSort {
-    public static void main(String[] args) {
+public class BubbleSortTest {
+    @Test
+    public void test11() {
         int[] arr = {8,2,4,1,3};
-        BubbleSort bubbleSort = new BubbleSort();
+        BubbleSortTest bubbleSort = new BubbleSortTest();
         bubbleSort.bubbleSorting(arr);
         System.out.println(Arrays.toString(arr));
     }

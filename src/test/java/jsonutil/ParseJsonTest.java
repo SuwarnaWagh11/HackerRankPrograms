@@ -1,6 +1,7 @@
 package jsonutil;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,7 +9,8 @@ import java.io.IOException;
 public class ParseJsonTest {
 
     static String FILENAME = "C:\\AutomationTestingAdvancedProgram\\JSONUtil\\JsonTest111.json";
-    public static void main(String[] args) throws IOException {
+    @Test
+    public void test11() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         Sales[] sales = objectMapper.readValue(new File(FILENAME), Sales[].class);//Sales[].class given bcoz resp is in json array
         for(Sales sale:sales){

@@ -1,5 +1,7 @@
 package StringsProgram;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,8 +19,9 @@ isn
 t
 he
 Note: You may find the String.split method helpful in completing this challenge.*/
-public class FindTheNumberOfAlphabeticsTokenInAString {
-    public static void main(String[] args) {
+public class FindTheNumberOfAlphabeticsTokenInAStringTest {
+    @Test
+    public void test11() {
         String s = "    He is a very very good boy, isn't he    ";
         if(!s.isBlank()){
             s = s.trim();

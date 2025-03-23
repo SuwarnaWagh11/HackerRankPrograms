@@ -5,11 +5,13 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.Method;
 import io.restassured.response.ValidatableResponse;
+import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.*;
 
 public class PracticeAPITest {
-    public static void main(String[] args) {
+    //@Test
+    public void test11() {
         ValidatableResponse resp;
         RequestSpecBuilder reqSpec = new RequestSpecBuilder();
 

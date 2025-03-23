@@ -1,6 +1,8 @@
 package streamstest;
 
 
+import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,8 +12,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StudyStreams1 {
-    public static void main(String[] args) throws IOException {
+public class StudyStreams1Test {
+    //@Test
+    public void test11() throws IOException {
         Employee[] arrOfEmp = {
                 new Employee(1, "Suwarna Wagh", 20000),
                 new Employee(2, "Randhir Giri", 30000),

@@ -1,12 +1,15 @@
 package geeksforgeeks;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Scanner;
 /*
 https://www.geeksforgeeks.org/java-programming-examples/
 
 */
-public class Day1_23Aug {
-    public static void main(String[] args) {
+public class Day1_23Aug_Test {
+    //@Test
+    public void test11() {
         readNumUsingScanner();
         multiplyTwoFloatingPoints();// O(1) it is doing constant operations
         swapTwoNumber(20,30);

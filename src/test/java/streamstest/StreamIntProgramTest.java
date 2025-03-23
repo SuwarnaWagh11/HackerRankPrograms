@@ -1,15 +1,18 @@
 package streamstest;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class StreamTestIntProgram {
+public class StreamIntProgramTest {
 
-    public static StreamTestIntProgram test = new StreamTestIntProgram();
-    public static void main(String[] args) {
+    public static StreamIntProgramTest test = new StreamIntProgramTest();
+    @Test
+    public void test11() {
         int[] nums = new int[]{4,2,3,4,1,5};
         int[] nums1 = new int[]{7,8,9,0,4,3,5,9};
         Integer[] convertedIntToIntegerArray = Arrays.stream(nums).boxed().toArray(Integer[]::new);
