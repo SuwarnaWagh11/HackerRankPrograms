@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class Check2ArrHasSameEleTest {
     @Test
-    public void test11() {
+    public void test115() {
         Integer[] arr1 = {1,2,5,3,4,2,9};
         Integer[] arr2 = {1,3,2,4,5,1,8};
         int[] arr3 = {1,3,2,4,5,1,8};

@@ -7,7 +7,7 @@ public class LocationCompare implements Comparator<ClassLocationDto> {
 
     @Override
     public int compare(ClassLocationDto o1, ClassLocationDto o2) {
-        final var result = compareBookingType(o1.getBookingType(), o2.getBookingType());
+        final int result = compareBookingType(o1.getBookingType(), o2.getBookingType());
         if(result != 0){
             return result;
         }

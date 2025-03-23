@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 public class StudyStreams1Test {
     //@Test
-    public void test11() throws IOException {
+    public void test126() throws IOException {
         Employee[] arrOfEmp = {
                 new Employee(1, "Suwarna Wagh", 20000),
                 new Employee(2, "Randhir Giri", 30000),

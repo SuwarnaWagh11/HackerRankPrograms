@@ -10,7 +10,7 @@ public class ParseJsonTest {
 
     static String FILENAME = "C:\\AutomationTestingAdvancedProgram\\JSONUtil\\JsonTest111.json";
     @Test
-    public void test11() throws IOException {
+    public void test117() throws IOException {
         ObjectMapper objectMapper = new ObjectMapper();
         Sales[] sales = objectMapper.readValue(new File(FILENAME), Sales[].class);//Sales[].class given bcoz resp is in json array
         for(Sales sale:sales){

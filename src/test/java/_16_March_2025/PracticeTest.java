@@ -1,6 +1,8 @@
 package _16_March_2025;
 
+import io.qameta.allure.junit5.AllureJunit5;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,6 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+@ExtendWith(AllureJunit5.class)
 public class PracticeTest {
 
     @Test

@@ -10,7 +10,7 @@ import java.util.Optional;
 public class CheckIfListOContainsPrimeNumTest {
 
     @Test
-    public void test11() {
+    public void test121() {
         List<Integer> list = Arrays.asList(2,5,4,3,6,8,10,13,17,19,20,22,37);
         System.out.println(list);
         //List<Integer> primes = list.stream().filter(e -> isPrime(e)).toList();

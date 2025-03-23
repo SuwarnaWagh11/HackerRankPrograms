@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 public class February20_2025Test {
 
     @Test
-    public void test11() {
+    public void test122() {
         findDuplicateFromStream();
 
     }

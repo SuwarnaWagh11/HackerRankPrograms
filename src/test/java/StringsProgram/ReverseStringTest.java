@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class ReverseStringTest {
     @Test
-    public void test11() {
+    public void test133() {
         String str1 = "abba";
         String str2 = new String("suwarna");
         String str3 = "suwarnaanrawus";

@@ -13,7 +13,7 @@ import java.util.List;
 
 public class Task210923Test {
     @Test
-    public void test11() {
+    public void test116() {
         //solution1 :: time complexity- O(n log(n))
         int[] a ={1,423,6,46,34,23,13,53,4};
         findMinAndMaxInt(a);

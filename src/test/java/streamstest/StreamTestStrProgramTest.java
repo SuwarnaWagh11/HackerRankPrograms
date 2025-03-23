@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class StreamTestStrProgramTest {
     @Test
-    public void test11() {
+    public void test125() {
         List<List<String>> listOfLists = Arrays.asList(
                 Arrays.asList("Reflection", "Collection", "Stream"),
                 Arrays.asList("Structure", "State", "Flow"),

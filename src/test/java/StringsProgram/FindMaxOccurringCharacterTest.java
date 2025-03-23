@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 public class FindMaxOccurringCharacterTest {
 
     @Test
-    public void test11() {
+    public void test127() {
         String str = "suwarnawagh";//o/p -> a = 3
         List<String> list = Arrays.asList(str.split(""));
         /*Map.Entry<String, Long> result = list.stream().collect(Collectors.groupingBy(String::valueOf, Collectors.counting()))

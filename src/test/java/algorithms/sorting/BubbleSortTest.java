@@ -9,7 +9,7 @@ import java.util.Arrays;
 * when the loop will iterate it should not check the recently sorted element which places in the last/second/third last position using length-i-1*/
 public class BubbleSortTest {
     @Test
-    public void test11() {
+    public void test111() {
         int[] arr = {8,2,4,1,3};
         BubbleSortTest bubbleSort = new BubbleSortTest();
         bubbleSort.bubbleSorting(arr);

@@ -12,7 +12,7 @@ public class StreamIntProgramTest {
 
     public static StreamIntProgramTest test = new StreamIntProgramTest();
     @Test
-    public void test11() {
+    public void test124() {
         int[] nums = new int[]{4,2,3,4,1,5};
         int[] nums1 = new int[]{7,8,9,0,4,3,5,9};
         Integer[] convertedIntToIntegerArray = Arrays.stream(nums).boxed().toArray(Integer[]::new);

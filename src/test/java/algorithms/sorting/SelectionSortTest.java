@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class SelectionSortTest {
     @Test
-    public void test11() {
+    public void test113() {
         int[] arr = {5,2,1,4,0,6,3};
         SelectionSortTest sort1= new SelectionSortTest();
         sort1.selection(arr);

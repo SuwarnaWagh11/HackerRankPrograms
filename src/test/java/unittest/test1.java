@@ -24,7 +24,7 @@ public class test1 {
     }
 
     @Test
-    public void testPages(){
+    public void testPages34(){
         Mockito.when(page.writtenPages()).thenReturn(20);
         int no = book.getNoOfPages();
         System.out.println(no);

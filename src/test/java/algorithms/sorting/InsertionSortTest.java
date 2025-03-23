@@ -12,7 +12,7 @@ import java.util.Arrays;
 * store current in a[j+1]*/
 public class InsertionSortTest {
     @Test
-    public void test11() {
+    public void test112() {
         int[] arr = {8,2,4,1,3};
         InsertionSortTest sort1 = new InsertionSortTest();
         sort1.insertionSort(arr);

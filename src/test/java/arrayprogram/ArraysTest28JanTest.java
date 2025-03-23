@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class ArraysTest28JanTest {
     @Test
-    public void test11() {
+    public void test114() {
         int[] nums = {2,4,3,2,9,6,7,8,9};
         int[] nums1 = {1,4,3,2,9,6,7,8,9};
         String[] names = {"Suwarna","Randhir","Giri"};

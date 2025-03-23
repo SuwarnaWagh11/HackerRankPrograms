@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 public class PracticeTest {
 
     @Test
-    public void test11() {
+    public void test119() {
         String str = "ssaddaswwsadfggfgtyythjjhyioolkkokkhggtfd";
         //characterCount(str);
         HashMap<Character, Integer> map = new HashMap<>();

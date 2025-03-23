@@ -18,7 +18,7 @@ if yes -> return the new int[] with already found diff values index and current 
 */
 public class A001_TwoSum_Test {
     @Test
-    public void test11() {
+    public void test118() {
         int[] nums = {2,7,11,15};
         System.out.println(Arrays.toString(nums));
         int target = 9;

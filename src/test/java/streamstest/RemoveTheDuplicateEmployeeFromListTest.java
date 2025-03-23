@@ -7,7 +7,7 @@ import java.util.*;
 public class RemoveTheDuplicateEmployeeFromListTest {
 
     @Test
-    public void test11() {
+    public void test123() {
         Employee[] arrOfEmp = {
                 new Employee(1, "Suwarna Wagh", 40000),
                 new Employee(2, "Randhir Giri", 30000),

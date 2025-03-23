@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class FindPermutationOfStringTest {
     @Test
-    public void test11() {
+    public void test128() {
         String s = "AAC";
         String s1 = "ABC";
         String s2 = "ABCD";
