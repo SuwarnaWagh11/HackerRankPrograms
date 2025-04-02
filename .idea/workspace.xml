@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Updated POM for allure report">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added jenkins file">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_25_March_2025/JavaFunctionInterfaceToKnow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/XMLGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/XMLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/xmltest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/ChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/XMLCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/XMLFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/XMLModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/CoverageAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/GroupInformationAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/CoverageInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/GroupInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -37,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Project/HackerrankProject/HackerRankPrograms/src/test/java/_16_March_2025",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.38850576"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Project/HackerrankProject/HackerRankPrograms/src/test/java/_16_March_2025&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jsonutil" />
@@ -63,7 +75,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Day1_23Aug_Test.test11">
+  <component name="RunManager" selected="JUnit.XMLModifier.xmlModificationForGrpInfoWithDataModel">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -94,81 +106,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1_23Aug_Test.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMLCreator.xmltest11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="PATTERN" value="xmlutil.xmlfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="geeksforgeeks" />
-      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.Day1_23Aug_Test" />
-      <option name="METHOD_NAME" value="test11" />
+      <option name="PACKAGE_NAME" value="xmlutil.xmlfactory" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlfactory.XMLCreator" />
+      <option name="METHOD_NAME" value="xmltest11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPracticeTest.findSumOfSquareOfOddNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMLModifier.xmlModification1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20_March_2025.*" />
+          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_20_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
-      <option name="METHOD_NAME" value="findSumOfSquareOfOddNumber" />
+      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
+      <option name="METHOD_NAME" value="xmlModification1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPracticeTest.findTheLongestWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMLModifier.xmlModificationForGrpInfoWithDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20_March_2025.*" />
+          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_20_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
-      <option name="METHOD_NAME" value="findTheLongestWord" />
+      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
+      <option name="METHOD_NAME" value="xmlModificationForGrpInfoWithDataModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPracticeTest.groupWordsByTheirFirstCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XMLModifier.xmlModificationWithDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20_March_2025.*" />
+          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_20_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
-      <option name="METHOD_NAME" value="groupWordsByTheirFirstCharacter" />
+      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
+      <option name="METHOD_NAME" value="xmlModificationWithDataModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamsPracticeTest.groupWordsByTheirFirstCharacterUsingStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="xmltest.xmlTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_20_March_2025.*" />
+          <option name="PATTERN" value="xmlutil.samples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_20_March_2025" />
-      <option name="MAIN_CLASS_NAME" value="_20_March_2025.StreamsPracticeTest" />
-      <option name="METHOD_NAME" value="groupWordsByTheirFirstCharacterUsingStream" />
+      <option name="PACKAGE_NAME" value="xmlutil.samples" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.samples.xmltest" />
+      <option name="METHOD_NAME" value="xmlTest3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day1_23Aug_Test.test11" />
-        <item itemvalue="JUnit.StreamsPracticeTest.findSumOfSquareOfOddNumber" />
-        <item itemvalue="JUnit.StreamsPracticeTest.findTheLongestWord" />
-        <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacterUsingStream" />
-        <item itemvalue="JUnit.StreamsPracticeTest.groupWordsByTheirFirstCharacter" />
+        <item itemvalue="JUnit.XMLModifier.xmlModificationForGrpInfoWithDataModel" />
+        <item itemvalue="JUnit.XMLModifier.xmlModificationWithDataModel" />
+        <item itemvalue="JUnit.XMLModifier.xmlModification1" />
+        <item itemvalue="JUnit.XMLCreator.xmltest11" />
+        <item itemvalue="JUnit.xmltest.xmlTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742759767528</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added jenkins file">
+      <option name="closed" value="true" />
+      <created>1742764139245</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1742764139245</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +389,8 @@
     <MESSAGE value="Added some New Tests for java programs" />
     <MESSAGE value="Updated POM. Added some New Tests for java programs" />
     <MESSAGE value="Updated POM for allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated POM for allure report" />
+    <MESSAGE value="Added jenkins file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jenkins file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
