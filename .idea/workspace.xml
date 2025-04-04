@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added jenkins file">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_25_March_2025/JavaFunctionInterfaceToKnow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/XMLGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/XMLUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/samples/xmltest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/ChangeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/XMLCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlfactory/XMLFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/XMLModifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/CoverageAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/GroupInformationAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/CoverageInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/GroupInformation.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added XML utils">
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/XMLCommonSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/DemographicInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/nodeaddition/XMLNodeAddition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/xmlnodes/DemographicInformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/XMLModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/XMLModifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/GroupInformationAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmlutil/xmlupdate/constants/GroupInformationAttribute.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -75,7 +69,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XMLModifier.xmlModificationForGrpInfoWithDataModel">
+  <component name="RunManager" selected="JUnit.XMLModifier.xmlModificationForDemographic">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -138,6 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XMLModifier.xmlModificationForDemographic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
+      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
+      <option name="METHOD_NAME" value="xmlModificationForDemographic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XMLModifier.xmlModificationForGrpInfoWithDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
@@ -170,29 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="xmltest.xmlTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xmlutil.samples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.samples" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.samples.xmltest" />
-      <option name="METHOD_NAME" value="xmlTest3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.XMLModifier.xmlModificationForDemographic" />
         <item itemvalue="JUnit.XMLModifier.xmlModificationForGrpInfoWithDataModel" />
         <item itemvalue="JUnit.XMLModifier.xmlModificationWithDataModel" />
         <item itemvalue="JUnit.XMLModifier.xmlModification1" />
         <item itemvalue="JUnit.XMLCreator.xmltest11" />
-        <item itemvalue="JUnit.xmltest.xmlTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742764139245</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added XML utils">
+      <option name="closed" value="true" />
+      <created>1743628386749</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1743628386749</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +392,8 @@
     <MESSAGE value="Updated POM. Added some New Tests for java programs" />
     <MESSAGE value="Updated POM for allure report" />
     <MESSAGE value="Added jenkins file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jenkins file" />
+    <MESSAGE value="Added XML utils" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added XML utils" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

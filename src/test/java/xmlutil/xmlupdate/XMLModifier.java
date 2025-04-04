@@ -5,22 +5,19 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
-import xmlutil.xmlupdate.constants.CoverageAttribute;
-import xmlutil.xmlupdate.constants.GroupInformationAttribute;
+import xmlutil.xmlupdate.xmlnodes.Address;
 import xmlutil.xmlupdate.xmlnodes.CoverageInformation;
+import xmlutil.xmlupdate.xmlnodes.DemographicInformation;
 import xmlutil.xmlupdate.xmlnodes.GroupInformation;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
 import java.io.IOException;
-import javax.xml.transform.Transformer;
+import java.util.Arrays;
 import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.*;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
+
+import static xmlutil.xmlupdate.XMLCommonSteps.loadXML;
+import static xmlutil.xmlupdate.XMLCommonSteps.writeUpdateTag;
+import static xmlutil.xmlupdate.nodeaddition.XMLNodeAddition.*;
 
 public class XMLModifier {
 
@@ -83,60 +80,28 @@ public class XMLModifier {
             GroupInformation groupInformation = new GroupInformation("980000","GENERALHealth");
             groupInfoNodeAddition(document, automationUpdate, groupInformation);
             // Step 6: Save the updated XML back to the file
-            writeUpdateTag(document, "C:\\MMS\\UpdatedOutput5.xml");
+            writeUpdateTag(document, "C:\\MMS\\UpdatedOutput6.xml");
             System.out.println("XML file updated successfully with new tag!");
         }
     }
 
-    private static void coverageNodeAddition(Document document, Element automationUpdate, CoverageInformation coverageInformation) {
+    @Test
+    public void xmlModificationForDemographic() throws ParserConfigurationException, IOException, SAXException, TransformerException {
+        // Step 1: Load the existing XML file
+        Document document = loadXML();
+        // Step 2: Locate the <automationUpdate> element
+        NodeList customerNodes = document.getElementsByTagName("customer");
+        if (customerNodes.getLength() > 0) {
+            Element customerElement = (Element) customerNodes.item(0); // Assuming one customer node
 
-        // Step 4: Create new <coverageInformation> element
-        Element coverageInfo = document.createElement("coverageInformation");
-        coverageInfo.setAttribute(CoverageAttribute.COVERAGE_REFERENCE_ID.getAttribute(), coverageInformation.getCoverageReferenceId());
-
-        Element policyNum = document.createElement(CoverageAttribute.POLICY_NUMBER.getAttribute());
-        policyNum.appendChild(document.createTextNode(coverageInformation.getPolicyNumber()));
-        coverageInfo.appendChild(policyNum);
-
-        Element coverageSplit = document.createElement(CoverageAttribute.COVERAGE_PERCENTAGE.getAttribute());
-        coverageSplit.appendChild(document.createTextNode(coverageInformation.getCoveragePercentage()));
-        coverageInfo.appendChild(coverageSplit);
-        // Step 5: Append the new element inside <automationUpdate>
-        automationUpdate.appendChild(coverageInfo);
-    }
-
-    private static void groupInfoNodeAddition(Document document, Element automationUpdate, GroupInformation groupInformation) {
-
-        // Step 4: Create new <coverageInformation> element
-        Element grpInfo = document.createElement("groupInformation");
-        //coverageInfo.setAttribute(GroupInformationAttribute.GROUP_ID.getAttribute(), groupInformation.getGroupId());
-
-        Element grpName = document.createElement(GroupInformationAttribute.GROUP_NAME.getAttribute());
-        grpName.appendChild(document.createTextNode(groupInformation.getGroupName()));
-        grpInfo.appendChild(grpName);
-
-        Element grpId = document.createElement(GroupInformationAttribute.GROUP_ID.getAttribute());
-        grpId.appendChild(document.createTextNode(groupInformation.getGroupId()));
-        grpInfo.appendChild(grpId);
-        // Step 5: Append the new element inside <automationUpdate>
-        automationUpdate.appendChild(grpInfo);
-    }
-
-    private static Document loadXML() throws ParserConfigurationException, SAXException, IOException {
-        File xmlFile = new File("C:\\MMS\\output1.xml");
-        DocumentBuilderFactory factory  = DocumentBuilderFactory.newInstance();
-        factory.setNamespaceAware(true);
-        DocumentBuilder builder = factory.newDocumentBuilder();
-        Document document = builder.parse(xmlFile);
-        return document;
-    }
-
-    private static void writeUpdateTag(Document document, String outputFilename) throws TransformerException {
-        TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        Transformer transformer = transformerFactory.newTransformer();
-        transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-        DOMSource source = new DOMSource(document);
-        StreamResult result = new StreamResult(new File(outputFilename));
-        transformer.transform(source, result);
+            // Step 3: Create Demographic Information object
+            DemographicInformation demographicInfo = new DemographicInformation(Arrays.asList(
+                    new Address("Residence", "123 Main St", "Apt 101", "12345", "CA"),
+                    new Address("Mailing", "456 Elm St", "Suite 200", "67890", "NY")
+            ));
+            demographicNodeAddition(document, customerElement, demographicInfo);
+            writeUpdateTag(document, "C:\\MMS\\UpdatedOutput4.xml");
+            System.out.println("XML file updated successfully with new tag!");
+        }
     }
 }

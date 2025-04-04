@@ -1,6 +1,7 @@
 package xmlutil.xmlupdate.constants;
 
 public enum GroupInformationAttribute {
+    GROUP_INFORMATION("groupInformation"),
     GROUP_ID("groupId"),
     GROUP_NAME("groupName");
     private final String attributeName;
