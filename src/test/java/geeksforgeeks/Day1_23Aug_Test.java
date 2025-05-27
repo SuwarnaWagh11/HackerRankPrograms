@@ -8,13 +8,13 @@ https://www.geeksforgeeks.org/java-programming-examples/
 
 */
 public class Day1_23Aug_Test {
-    //@Test
-    public void test11() {
-        readNumUsingScanner();
+    @Test
+    public void test1111() {
+/*        readNumUsingScanner();
         multiplyTwoFloatingPoints();// O(1) it is doing constant operations
         swapTwoNumber(20,30);
         swapTwoNumberWithTwoOperator(20,30);
-        addTwoBinaryString("110","011");
+        addTwoBinaryString("110","011");*/
         maxValueFromThreeInteger(223,45,331);
     }
 

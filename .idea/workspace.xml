@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Strategy design pattern example, Still in progress">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton/SingletonThreadSafeImprovised.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Improvised Singleton design pattern example">
+      <change afterPath="$PROJECT_DIR$/src/test/java/_27_May_2025/May27Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton/SingletonThreadSafeImprovised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton/SingletonThreadSafeImprovised.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.XMLModifier.xmlModificationForDemographic">
+  <component name="RunManager" selected="JUnit.May27Test.practiceSummaryStats">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -94,81 +97,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLCreator.xmltest11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May27Test.practiceFilteringAndMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlutil.xmlfactory.*" />
+          <option name="PATTERN" value="_27_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.xmlfactory" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlfactory.XMLCreator" />
-      <option name="METHOD_NAME" value="xmltest11" />
+      <option name="PACKAGE_NAME" value="_27_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
+      <option name="METHOD_NAME" value="practiceFilteringAndMapping" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLModifier.xmlModification1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May27Test.practiceFilteringAndMappingForInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
+          <option name="PATTERN" value="_27_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
-      <option name="METHOD_NAME" value="xmlModification1" />
+      <option name="PACKAGE_NAME" value="_27_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
+      <option name="METHOD_NAME" value="practiceFilteringAndMappingForInArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLModifier.xmlModificationForDemographic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May27Test.practiceGeneratingSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
+          <option name="PATTERN" value="_27_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
-      <option name="METHOD_NAME" value="xmlModificationForDemographic" />
+      <option name="PACKAGE_NAME" value="_27_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
+      <option name="METHOD_NAME" value="practiceGeneratingSequence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLModifier.xmlModificationForGrpInfoWithDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May27Test.practiceIterationOverArrayOfInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
+          <option name="PATTERN" value="_27_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
-      <option name="METHOD_NAME" value="xmlModificationForGrpInfoWithDataModel" />
+      <option name="PACKAGE_NAME" value="_27_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
+      <option name="METHOD_NAME" value="practiceIterationOverArrayOfInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLModifier.xmlModificationWithDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May27Test.practiceSummaryStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xmlutil.xmlupdate.*" />
+          <option name="PATTERN" value="_27_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="xmlutil.xmlupdate" />
-      <option name="MAIN_CLASS_NAME" value="xmlutil.xmlupdate.XMLModifier" />
-      <option name="METHOD_NAME" value="xmlModificationWithDataModel" />
+      <option name="PACKAGE_NAME" value="_27_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
+      <option name="METHOD_NAME" value="practiceSummaryStats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.XMLModifier.xmlModificationForDemographic" />
-        <item itemvalue="JUnit.XMLModifier.xmlModificationForGrpInfoWithDataModel" />
-        <item itemvalue="JUnit.XMLModifier.xmlModificationWithDataModel" />
-        <item itemvalue="JUnit.XMLModifier.xmlModification1" />
-        <item itemvalue="JUnit.XMLCreator.xmltest11" />
+        <item itemvalue="JUnit.May27Test.practiceSummaryStats" />
+        <item itemvalue="JUnit.May27Test.practiceFilteringAndMappingForInArray" />
+        <item itemvalue="JUnit.May27Test.practiceFilteringAndMapping" />
+        <item itemvalue="JUnit.May27Test.practiceGeneratingSequence" />
+        <item itemvalue="JUnit.May27Test.practiceIterationOverArrayOfInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744371662381</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added Improvised Singleton design pattern example">
+      <option name="closed" value="true" />
+      <created>1744372247286</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1744372247286</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +425,8 @@
     <MESSAGE value="Added XML utils with updated approach" />
     <MESSAGE value="Added Singleton design pattern example" />
     <MESSAGE value="Added Strategy design pattern example, Still in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Strategy design pattern example, Still in progress" />
+    <MESSAGE value="Added Improvised Singleton design pattern example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Improvised Singleton design pattern example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,6 +480,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/algorithms/sorting/BubbleSortTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

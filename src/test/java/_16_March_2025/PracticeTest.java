@@ -19,9 +19,10 @@ public class PracticeTest {
     @Test
     public void reverseTheString(){
         String str1 = "SUWARNA";
+        System.out.println(str1.charAt(str1.length() - 0 - 1));
         String result = IntStream.range(0, str1.length())
                         .mapToObj(i -> String.valueOf(str1.charAt(str1.length() - i - 1)))
-                                .collect(Collectors.joining());
+                        .collect(Collectors.joining());
         System.out.println(result);
     }
 

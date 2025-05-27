@@ -1,6 +1,8 @@
 package DesignPatterns.Singleton;
 
 public class SingletonThreadSafeImprovised {
+
+    //The volatile keyword ensures that multiple threads handle the singleton instance correctly.
     private volatile SingletonThreadSafeImprovised instance;
 
     private SingletonThreadSafeImprovised(){
