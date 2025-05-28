@@ -1,4 +1,4 @@
-package _16_March_2025;
+package practice.march._16_March_2025;
 
 import io.qameta.allure.junit5.AllureJunit5;
 import org.junit.jupiter.api.Test;

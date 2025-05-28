@@ -1,4 +1,4 @@
-package _25_March_2025;
+package practice.march._25_March_2025;
 
 import org.junit.jupiter.api.Test;
 

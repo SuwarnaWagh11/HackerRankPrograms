@@ -1,4 +1,4 @@
-package practice;
+package apitest;
 
 import com.google.common.base.Function;
 import org.apache.commons.io.FileUtils;

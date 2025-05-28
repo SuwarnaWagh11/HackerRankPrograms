@@ -1,4 +1,4 @@
-package _16_March_2025;
+package practice.march._16_March_2025;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;

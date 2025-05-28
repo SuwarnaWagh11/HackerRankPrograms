@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added Improvised Singleton design pattern example">
-      <change afterPath="$PROJECT_DIR$/src/test/java/_27_May_2025/May27Test.java" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for May 27">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton/SingletonThreadSafeImprovised.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesignPatterns/Singleton/SingletonThreadSafeImprovised.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/geeksforgeeks/Day1_23Aug_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_16_March_2025/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/march/_16_March_2025/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_16_March_2025/StepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/march/_16_March_2025/StepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_19_March_2025/ManualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/march/_19_March_2025/ManualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_20_March_2025/StreamsPracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/march/_20_March_2025/StreamsPracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_25_March_2025/JavaFunctionInterfaceToKnow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/march/_25_March_2025/JavaFunctionInterfaceToKnow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/_27_May_2025/May27Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_27_May_2025/May27Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitest/PracticeAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitest/PracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/PractiveUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitest/PractiveUITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +73,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.May27Test.practiceSummaryStats">
+  <component name="RunManager" selected="JUnit.May28_StreamTest.findLongestStringWithStream">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -97,81 +104,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May27Test.practiceFilteringAndMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May28_StreamTest.countNameWithLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_27_May_2025.*" />
+          <option name="PATTERN" value="practice.may._28_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_27_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
-      <option name="METHOD_NAME" value="practiceFilteringAndMapping" />
+      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
+      <option name="METHOD_NAME" value="countNameWithLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May27Test.practiceFilteringAndMappingForInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May28_StreamTest.countNameWithLength3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_27_May_2025.*" />
+          <option name="PATTERN" value="practice.may._28_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_27_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
-      <option name="METHOD_NAME" value="practiceFilteringAndMappingForInArray" />
+      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
+      <option name="METHOD_NAME" value="countNameWithLength3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May27Test.practiceGeneratingSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May28_StreamTest.findLongestString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_27_May_2025.*" />
+          <option name="PATTERN" value="practice.may._28_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_27_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
-      <option name="METHOD_NAME" value="practiceGeneratingSequence" />
+      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
+      <option name="METHOD_NAME" value="findLongestString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May27Test.practiceIterationOverArrayOfInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May28_StreamTest.findLongestStringWithStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_27_May_2025.*" />
+          <option name="PATTERN" value="practice.may._28_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_27_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
-      <option name="METHOD_NAME" value="practiceIterationOverArrayOfInteger" />
+      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
+      <option name="METHOD_NAME" value="findLongestStringWithStream" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May27Test.practiceSummaryStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="May28_StreamTest.joinNamesByComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_27_May_2025.*" />
+          <option name="PATTERN" value="practice.may._28_May_2025.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="_27_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="_27_May_2025.May27Test" />
-      <option name="METHOD_NAME" value="practiceSummaryStats" />
+      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
+      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
+      <option name="METHOD_NAME" value="joinNamesByComma" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.May27Test.practiceSummaryStats" />
-        <item itemvalue="JUnit.May27Test.practiceFilteringAndMappingForInArray" />
-        <item itemvalue="JUnit.May27Test.practiceFilteringAndMapping" />
-        <item itemvalue="JUnit.May27Test.practiceGeneratingSequence" />
-        <item itemvalue="JUnit.May27Test.practiceIterationOverArrayOfInteger" />
+        <item itemvalue="JUnit.May28_StreamTest.findLongestStringWithStream" />
+        <item itemvalue="JUnit.May28_StreamTest.findLongestString" />
+        <item itemvalue="JUnit.May28_StreamTest.joinNamesByComma" />
+        <item itemvalue="JUnit.May28_StreamTest.countNameWithLength" />
+        <item itemvalue="JUnit.May28_StreamTest.countNameWithLength3" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744372247286</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added practical example for May 27">
+      <option name="closed" value="true" />
+      <created>1748352035038</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1748352035038</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,7 +441,8 @@
     <MESSAGE value="Added Singleton design pattern example" />
     <MESSAGE value="Added Strategy design pattern example, Still in progress" />
     <MESSAGE value="Added Improvised Singleton design pattern example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Improvised Singleton design pattern example" />
+    <MESSAGE value="Added practical example for May 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for May 27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
