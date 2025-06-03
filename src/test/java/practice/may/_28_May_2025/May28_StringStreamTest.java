@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class May28_StreamTest {
+public class May28_StringStreamTest {
 
     /*Expected o/p
      [JOHN, DOE]
@@ -40,6 +40,7 @@ public class May28_StreamTest {
     @Test
     public void joinNamesByComma(){
         String[] names = {"Alice", "Bob", "Anna"};
+        String res1 = Arrays.stream(names).collect(Collectors.joining(", "));
         String res = String.join(",", names);
         System.out.println(res);
     }
@@ -68,6 +69,8 @@ public class May28_StreamTest {
         String res = Arrays.stream(words).max((s1, s2)-> Integer.compare(s1.length(), s2.length())).get();
         String longestStr = Arrays.stream(words).max(Comparator.comparingInt(String::length)).orElse("NotFound");
         System.out.println(longestStr);
+        String smallest = Arrays.stream(words).min(Comparator.comparingInt(String::length)).orElse("NotFound");
+        System.out.println(smallest);
     }
     /*Expected o/p
     [apple, banana]
@@ -99,5 +102,4 @@ public class May28_StreamTest {
         Map<Integer, List<String>> res = Arrays.stream(words).collect(Collectors.groupingBy(String::length));
         System.out.println(res);
     }
-
 }

@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for May 27">
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for May 28">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StringStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.May28_StreamTest.convertAllToUpperCase">
+  <component name="RunManager" selected="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -94,81 +98,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.convertAllToUpperCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.GroupAndFindMaxSalaryInEachDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="convertAllToUpperCase" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
+      <option name="METHOD_NAME" value="GroupAndFindMaxSalaryInEachDepartment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.countNameWithLength3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.countNoOfmployeesInEachDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="countNameWithLength3" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
+      <option name="METHOD_NAME" value="countNoOfmployeesInEachDept" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.findLongestStringWithStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.groupEmployeesByDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="findLongestStringWithStream" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
+      <option name="METHOD_NAME" value="groupEmployeesByDept" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.joinNamesByComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.groupNumbersIntoEvenAndOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="joinNamesByComma" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
+      <option name="METHOD_NAME" value="groupNumbersIntoEvenAndOdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.sortNameAlphabetically" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.groupStringsByTheirLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="sortNameAlphabetically" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
+      <option name="METHOD_NAME" value="groupStringsByTheirLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.May28_StreamTest.convertAllToUpperCase" />
-        <item itemvalue="JUnit.May28_StreamTest.countNameWithLength3" />
-        <item itemvalue="JUnit.May28_StreamTest.sortNameAlphabetically" />
-        <item itemvalue="JUnit.May28_StreamTest.joinNamesByComma" />
-        <item itemvalue="JUnit.May28_StreamTest.findLongestStringWithStream" />
+        <item itemvalue="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment" />
+        <item itemvalue="JUnit.June02Test.countNoOfmployeesInEachDept" />
+        <item itemvalue="JUnit.June02Test.groupEmployeesByDept" />
+        <item itemvalue="JUnit.June02Test.groupNumbersIntoEvenAndOdd" />
+        <item itemvalue="JUnit.June02Test.groupStringsByTheirLength" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748469740012</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added practical example for May 28">
+      <option name="closed" value="true" />
+      <created>1748858912456</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1748858912456</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +452,8 @@
     <MESSAGE value="Added Strategy design pattern example, Still in progress" />
     <MESSAGE value="Added Improvised Singleton design pattern example" />
     <MESSAGE value="Added practical example for May 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for May 27" />
+    <MESSAGE value="Added practical example for May 28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for May 28" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

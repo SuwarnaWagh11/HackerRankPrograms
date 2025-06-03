@@ -10,8 +10,9 @@ public class May28_intStreamTest {
     @Test
     public void sumOfAllIntegersInArray(){
         int[] arr = {1, 2, 3, 4};
-        int sm = IntStream.of(arr).sum();
-        System.out.println(sm);
+        int sm = IntStream.of(arr).sum(); //10
+        int sm1 = Arrays.stream(arr).sum();
+        System.out.println(sm1);
     }
 
     @Test
@@ -27,13 +28,19 @@ public class May28_intStreamTest {
                 .filter(i -> i % 2 == 0)
                 .count();
         System.out.println(res1);
+
+        long cnt = Arrays.stream(arr1).filter(i -> i % 2 == 0).count();
+        System.out.println(cnt);
     }
     @Test
     public void findMaxandMin(){
         int[] arr = {10, 20, 5, 7, 30};
         int min = IntStream.of(arr).min().getAsInt();
         int max = IntStream.of(arr).max().getAsInt();
-        System.out.println("Min = " + min + "\n Max = "+ max);
+        System.out.println("Min = " + min + "\t Max = "+ max);
+        int mn = Arrays.stream(arr).min().getAsInt();
+        int mx = Arrays.stream(arr).max().getAsInt();
+        System.out.println(mn +" <---> "+ mx);
     }
 
     @Test
@@ -41,14 +48,18 @@ public class May28_intStreamTest {
         int[] arr = {1, 2, 3};
         List<Integer> res = IntStream.of(arr).mapToObj(i -> i * i).collect(Collectors.toList());
         System.out.println(res);
+        List<Integer> res1 = Arrays.stream(arr).map(i -> i * i).boxed().toList(); //I forgot to convert int[] to Integer i.e boxed()
+        System.out.println(res1);
     }
 
     @Test
     public void getDistinctEvenNumbers(){
         int[] arr = {2, 4, 6, 2, 4, 8, 5, 9};
-        IntStream.of(arr).filter(i -> i % 2 == 0).distinct().forEach(System.out::println);
+        IntStream.of(arr).filter(i -> i % 2 == 0).distinct().forEach(System.out::print);
         int[] res = Arrays.stream(arr).filter(i -> i % 2 == 0).distinct().toArray();
         System.out.println(Arrays.toString(res));
+        List<Integer> res2 = Arrays.stream(arr).boxed().filter(i -> i % 2 == 0).distinct().toList();
+        System.out.println(res2);
     }
 
     @Test
