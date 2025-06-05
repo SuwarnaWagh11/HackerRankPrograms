@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for May 28">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for June 02nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_StringStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment">
+  <component name="RunManager" selected="JUnit.June02Test.countNoOfEmployeesInEachDept">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -114,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="June02Test.countNoOfmployeesInEachDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June02Test.countNoOfEmployeesInEachDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +120,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="practice.june" />
       <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
-      <option name="METHOD_NAME" value="countNoOfmployeesInEachDept" />
+      <option name="METHOD_NAME" value="countNoOfEmployeesInEachDept" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment" />
-        <item itemvalue="JUnit.June02Test.countNoOfmployeesInEachDept" />
+        <item itemvalue="JUnit.June02Test.countNoOfEmployeesInEachDept" />
         <item itemvalue="JUnit.June02Test.groupEmployeesByDept" />
         <item itemvalue="JUnit.June02Test.groupNumbersIntoEvenAndOdd" />
         <item itemvalue="JUnit.June02Test.groupStringsByTheirLength" />
+        <item itemvalue="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748858912456</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added practical example for June 02nd">
+      <option name="closed" value="true" />
+      <created>1748968273287</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1748968273287</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -453,7 +457,8 @@
     <MESSAGE value="Added Improvised Singleton design pattern example" />
     <MESSAGE value="Added practical example for May 27" />
     <MESSAGE value="Added practical example for May 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for May 28" />
+    <MESSAGE value="Added practical example for June 02nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for June 02nd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

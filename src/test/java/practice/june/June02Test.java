@@ -10,6 +10,7 @@ import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.collectingAndThen;
 import static java.util.stream.Collectors.maxBy;
 
 public class June02Test {
@@ -51,6 +52,11 @@ public class June02Test {
 
     @Test
     public void GroupAndFindMaxSalaryInEachDepartment() {
+        Object result = employee.stream()
+                .collect(Collectors.groupingBy(Employee::getDepartment,
+                collectingAndThen(maxBy(Comparator.comparingDouble(Employee::getSalary)), Optional::get)));
+
+
         Map<String, Employee> res = employee.stream().collect(Collectors.toMap( //- Collects the stream into a Map<String, Employee>, with a custom merge strategy.
                 Employee::getDepartment,   // keyMapper - Extracts the key for the map (department name).
                 Function.identity(),       // valueMapper - Uses the whole Employee object as the value.
