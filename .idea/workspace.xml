@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for May 27">
+    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for May 27">
+      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/June08Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/may/_28_May_2025/May28_intStreamTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.May28_intStreamTest.sumOfAllIntegersInArray">
+  <component name="RunManager" selected="JUnit.June08Test.testForRotateArray">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -85,33 +85,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.countNameWithLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
+    <configuration name="June08Test.testForRotateArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="practice.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="countNameWithLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="May28_StreamTest.findLongestString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="findLongestString" />
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
+      <option name="METHOD_NAME" value="testForRotateArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,22 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.joinNamesByComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="joinNamesByComma" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="May28_intStreamTest.sumOfAllIntegersInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankPrograms" />
       <extension name="coverage">
@@ -165,13 +133,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="June08Test.testForRotateArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.june.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
+      <option name="METHOD_NAME" value="testForRotateArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="June08Test.testForRoteArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HackerRankPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.june.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice.june" />
+      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
+      <option name="METHOD_NAME" value="testForRoteArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.June08Test.testForRotateArray" />
+        <item itemvalue="TestNG.June08Test.testForRotateArray" />
+        <item itemvalue="TestNG.June08Test.testForRoteArray" />
         <item itemvalue="JUnit.May28_intStreamTest.sumOfAllIntegersInArray" />
         <item itemvalue="JUnit.May28_StreamTest.findLongestStringWithStream" />
-        <item itemvalue="JUnit.May28_StreamTest.findLongestString" />
-        <item itemvalue="JUnit.May28_StreamTest.joinNamesByComma" />
-        <item itemvalue="JUnit.May28_StreamTest.countNameWithLength" />
       </list>
     </recent_temporary>
   </component>
