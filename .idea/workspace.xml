@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="Added practical example for June 02nd">
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0506.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/june/June02Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Project/HackerrankProject/HackerRankPrograms/src/test/java/_16_March_2025&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.38850576&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Project/HackerrankProject/HackerRankPrograms/src/test/java/automation/apipractice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.38850576"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="jsonutil" />
@@ -56,6 +57,7 @@
       <recent name="patterns.factory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java\automation\apipractice" />
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java\_16_March_2025" />
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\src\test\java" />
     </key>
@@ -63,7 +65,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.June02Test.countNoOfEmployeesInEachDept">
+  <component name="RunManager" selected="JUnit.June0506.testBrokenLinks">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -90,22 +92,6 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="June02Test.GroupAndFindMaxSalaryInEachDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.june.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.june" />
-      <option name="MAIN_CLASS_NAME" value="practice.june.June02Test" />
-      <option name="METHOD_NAME" value="GroupAndFindMaxSalaryInEachDepartment" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,13 +160,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="June0506.testBrokenLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.uipractice.year2025.june.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.uipractice.year2025.june" />
+      <option name="MAIN_CLASS_NAME" value="automation.uipractice.year2025.june.June0506" />
+      <option name="METHOD_NAME" value="testBrokenLinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.June0506.testBrokenLinks" />
         <item itemvalue="JUnit.June02Test.countNoOfEmployeesInEachDept" />
         <item itemvalue="JUnit.June02Test.groupEmployeesByDept" />
         <item itemvalue="JUnit.June02Test.groupNumbersIntoEvenAndOdd" />
         <item itemvalue="JUnit.June02Test.groupStringsByTheirLength" />
-        <item itemvalue="JUnit.June02Test.GroupAndFindMaxSalaryInEachDepartment" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748968273287</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Added practical example for June 02nd">
+      <option name="closed" value="true" />
+      <created>1749117342470</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1749117342470</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
