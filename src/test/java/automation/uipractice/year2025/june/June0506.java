@@ -13,6 +13,7 @@ public class June0506 {
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver();
         driver.get("https://pkup.epam.com/main");
+        System.out.println("I m here");
         Thread.sleep(3000);
         driver.close();
     }

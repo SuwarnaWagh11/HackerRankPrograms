@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for May 27">
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/june/June08Test.java" afterDir="false" />
+    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 02nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0506.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0506.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +427,8 @@
     <MESSAGE value="Added Strategy design pattern example, Still in progress" />
     <MESSAGE value="Added Improvised Singleton design pattern example" />
     <MESSAGE value="Added practical example for May 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for May 27" />
+    <MESSAGE value="Added practical example for June 02nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for June 02nd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
