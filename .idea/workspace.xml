@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 02nd">
+    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 09">
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0906.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0506.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0506.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2SW1koL7vL0nAIXWRylSB4HruFf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,7 +57,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.June08Test.testForRotateArray">
+  <component name="RunManager" selected="JUnit.June0906.test09">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -101,33 +104,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_StreamTest.findLongestStringWithStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="June0906.test09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="automation.uipractice.year2025.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_StreamTest" />
-      <option name="METHOD_NAME" value="findLongestStringWithStream" />
+      <option name="PACKAGE_NAME" value="automation.uipractice.year2025.june" />
+      <option name="MAIN_CLASS_NAME" value="automation.uipractice.year2025.june.June0906" />
+      <option name="METHOD_NAME" value="test09" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="May28_intStreamTest.sumOfAllIntegersInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankPrograms" />
+    <configuration name="June0906.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.may._28_May_2025.*" />
+          <option name="PATTERN" value="automation.uipractice.year2025.june.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="practice.may._28_May_2025" />
-      <option name="MAIN_CLASS_NAME" value="practice.may._28_May_2025.May28_intStreamTest" />
-      <option name="METHOD_NAME" value="sumOfAllIntegersInArray" />
+      <option name="PACKAGE_NAME" value="automation.uipractice.year2025.june" />
+      <option name="MAIN_CLASS_NAME" value="automation.uipractice.year2025.june.June0906" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="June0906.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.uipractice.year2025.june.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.uipractice.year2025.june" />
+      <option name="MAIN_CLASS_NAME" value="automation.uipractice.year2025.june.June0906" />
+      <option name="METHOD_NAME" value="test11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,38 +170,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="June08Test.testForRoteArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.june.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.june" />
-      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
-      <option name="METHOD_NAME" value="testForRoteArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.June0906.test09" />
+        <item itemvalue="JUnit.June0906.test10" />
+        <item itemvalue="JUnit.June0906.test11" />
         <item itemvalue="JUnit.June08Test.testForRotateArray" />
         <item itemvalue="TestNG.June08Test.testForRotateArray" />
-        <item itemvalue="TestNG.June08Test.testForRoteArray" />
-        <item itemvalue="JUnit.May28_intStreamTest.sumOfAllIntegersInArray" />
-        <item itemvalue="JUnit.May28_StreamTest.findLongestStringWithStream" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3b63cd63-44b8-4ffe-9a55-05aaeeca3e6d" name="Changes" comment="" />
+      <changelist id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 09" />
       <created>1689247669504</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -392,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748352035038</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added practical example for June 09">
+      <option name="closed" value="true" />
+      <created>1749461868739</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1749461868739</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +437,8 @@
     <MESSAGE value="Added Improvised Singleton design pattern example" />
     <MESSAGE value="Added practical example for May 27" />
     <MESSAGE value="Added practical example for June 02nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for June 02nd" />
+    <MESSAGE value="Added practical example for June 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for June 09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
