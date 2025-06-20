@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 09">
-      <change afterPath="$PROJECT_DIR$/src/test/java/automation/uipractice/year2025/june/June0906.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +28,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2SW1koL7vL0nAIXWRylSB4HruFf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,7 +57,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.June0906.test09">
+  <component name="RunManager" selected="JUnit.A001_TwoSum_Test.test2Sum">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -84,6 +84,22 @@
       <option name="resourceGroup" />
       <option name="stagingFolder" />
       <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A001_TwoSum_Test.test2Sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LeetCode.Easy" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Easy.A001_TwoSum_Test" />
+      <option name="METHOD_NAME" value="test2Sum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,31 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="June08Test.testForRotateArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.june.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.june" />
-      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
-      <option name="METHOD_NAME" value="testForRotateArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.A001_TwoSum_Test.test2Sum" />
         <item itemvalue="JUnit.June0906.test09" />
         <item itemvalue="JUnit.June0906.test10" />
         <item itemvalue="JUnit.June0906.test11" />
         <item itemvalue="JUnit.June08Test.testForRotateArray" />
-        <item itemvalue="TestNG.June08Test.testForRotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749461868739</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added practical example for June 09">
+      <option name="closed" value="true" />
+      <created>1749545724824</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1749545724824</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

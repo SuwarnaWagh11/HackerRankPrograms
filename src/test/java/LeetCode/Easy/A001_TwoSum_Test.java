@@ -2,8 +2,11 @@ package LeetCode.Easy;
 
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
+
 /* Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
@@ -17,6 +20,29 @@ if no -> put the current value & its index in map. map.put(nums[i], i)
 if yes -> return the new int[] with already found diff values index and current index i.e. map.get(diff), i
 */
 public class A001_TwoSum_Test {
+
+    @Test
+    public void test2Sum(){
+        int[] nums = {2,7,11,15};
+        int target = 9;
+        int[] result = twoSumsRes(nums, target);
+        System.out.println(Arrays.toString(result));
+    }
+
+    private static int[] twoSumsRes(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i < nums.length; i++){
+            int diff = target - nums[i];
+            System.out.println(diff);
+            if(map.containsKey(diff)){
+                return new int[]{diff, nums[i]};
+            }else{
+                map.put(nums[i], i);
+            }
+        }
+        return new int[]{};
+    }
+
     @Test
     public void test118() {
         int[] nums = {2,7,11,15};
