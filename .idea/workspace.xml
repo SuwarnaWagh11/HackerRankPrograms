@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added practical example for June 09">
+    <list default="true" id="4a7522d9-ae5c-4902-8d52-aedf67dfa5af" name="Changes" comment="Added leetcode 1 program&#10;TwoSum - Easy">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/user-response.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jsonutil/util/UserJsonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/Easy/A001_TwoSum_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jsonutil/ParseJsonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <recent name="C:\Project\HackerrankProject\HackerRankPrograms\target" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.A001_TwoSum_Test.test2Sum">
+  <component name="RunManager" selected="JUnit.ParseJsonTest.userMappingTest">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -99,22 +102,6 @@
       <option name="PACKAGE_NAME" value="LeetCode.Easy" />
       <option name="MAIN_CLASS_NAME" value="LeetCode.Easy.A001_TwoSum_Test" />
       <option name="METHOD_NAME" value="test2Sum" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="June08Test.testForRotateArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HackerRankPrograms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.june.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="practice.june" />
-      <option name="MAIN_CLASS_NAME" value="practice.june.June08Test" />
-      <option name="METHOD_NAME" value="testForRotateArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,13 +155,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParseJsonTest.userMappingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jsonutil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jsonutil" />
+      <option name="MAIN_CLASS_NAME" value="jsonutil.ParseJsonTest" />
+      <option name="METHOD_NAME" value="userMappingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParseJsonTest.userMappingTest" />
         <item itemvalue="JUnit.A001_TwoSum_Test.test2Sum" />
         <item itemvalue="JUnit.June0906.test09" />
         <item itemvalue="JUnit.June0906.test10" />
         <item itemvalue="JUnit.June0906.test11" />
-        <item itemvalue="JUnit.June08Test.testForRotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749545724824</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added leetcode 1 program&#10;TwoSum - Easy">
+      <option name="closed" value="true" />
+      <created>1750419383248</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750419383248</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +455,8 @@
     <MESSAGE value="Added practical example for May 27" />
     <MESSAGE value="Added practical example for June 02nd" />
     <MESSAGE value="Added practical example for June 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practical example for June 09" />
+    <MESSAGE value="Added leetcode 1 program&#10;TwoSum - Easy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added leetcode 1 program&#10;TwoSum - Easy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

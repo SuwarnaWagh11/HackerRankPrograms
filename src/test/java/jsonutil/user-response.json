@@ -1,0 +1,10 @@
+{
+  "id": "12345",
+  "firstName": "Navnath",
+  "lastName": "Wagh",
+  "email": "navnath@example.com",
+  "active": true,
+  "roles": ["USER", "ADMIN"],
+  "gender": "male",
+  "occupation": ["IT","Services"]
+}
